@@ -5,7 +5,6 @@ import { IProduto, produtos } from './produtos';
   providedIn: 'root'
 })
 export class ProdutosService {
-
   produtos: IProduto[] = produtos;
 
   constructor() { }
